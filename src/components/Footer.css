@@ -1,0 +1,21 @@
+.nav-item {
+    margin-right: 10px; /* Adjust as needed for spacing between items */
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black; /* Adjust link color as needed */
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 50px; /* Adjust the value as needed */
+}
+
+.nav-link1 {
+    color: darkslategrey;
+    text-decoration: none;
+}
+
+
+
+

@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    align-items: center; /* Vertical centering */
+    height: 80vh; /* Full viewport height, adjust as needed */
+}
+
+.content {
+    max-width: 600px; /* Adjust width as needed */
+    text-align: left; /* Aligns text to the left */
+}
+
+.donut {
+    width: 10px; /* Adjust the size of the donut */
+    height: 10px;
+    border: 10px solid red; /* Outer border color (adjust thickness as needed) */
+    border-radius: 100px 0 0 0;
+    box-sizing: border-box; /* Keeps the outer border within the defined width and height */
+    background-color: white; /* Background color inside the donut */
+}
+  
+.img-small {
+    height: 10vh;
+    width: 54.79%
+}
+
+
+
+
+

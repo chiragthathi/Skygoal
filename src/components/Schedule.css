@@ -1,0 +1,99 @@
+.card-container {
+    display: flex;
+    gap: 20px;
+    /* Adjust the gap as needed */
+    margin-top: 80px;
+    margin-left: 100px;
+    /* Moves the container to the right */
+    overflow-x: hidden;
+    text-align: left;
+}
+
+
+
+.card {
+    flex: 0 0 auto;
+    width: 400px;
+    /* Adjust card width as needed */
+    border: 1px solid #ccc;
+    /* Optional: Border for visualization */
+    overflow: hidden;
+    /* Hide any content that overflows the card */
+    position: relative;
+    /* Establish positioning context */
+}
+
+.card-img-top {
+    width: 100%;
+    /* Ensure the image takes the full width of the card */
+    height: 100%;
+    /* Ensure the image takes the full height of the card */
+    object-fit: cover;
+    /* Maintain aspect ratio and cover the entire card */
+}
+
+.card-1 {
+    margin-left: 5px;
+    /* Adjust the value as needed */
+    margin-Right: auto;
+    text-decoration: none;
+
+}
+
+.card-2 {
+    margin-left: 20px;
+    /* Adjust the value as needed */
+    margin-Right: auto;
+}
+
+.card-body {
+    text-decoration: none;
+
+}
+
+.circle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: -80px;
+    margin-left: 300px;
+}
+
+.grey-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: lightgray;
+    position: relative;
+}
+
+.black-dot {
+    width: 3px;
+    /* Reduced diameter of the dot */
+    height: 3px;
+    /* Reduced diameter of the dot */
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+}
+
+/* Position the black dots within the grey circle */
+.black-dot:nth-child(1) {
+    top: 50%;
+    left: 20%;
+    /* Adjust the position of the first dot */
+}
+
+.black-dot:nth-child(2) {
+    top: 50%;
+    left: 50%;
+    /* Adjust the position of the second dot */
+    transform: translateX(-50%);
+}
+
+.black-dot:nth-child(3) {
+    top: 50%;
+    right: 20%;
+    /* Adjust the position of the third dot */
+}

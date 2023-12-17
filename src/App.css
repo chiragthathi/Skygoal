@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* For devices with a maximum width of 1512px */
+@media (max-width: 1512px) {
+  .homepage {
+    width: 1512px;
+    top: -3679px;
+    left: -756px;
+    background-color: #FFFFFF;
+  }
+}
+
+/* For devices with a width of 1513px to 1919px */
+@media (min-width: 1513px) and (max-width: 1919px) {
+  .homepage {
+    display: none; /* Assuming layout 2 takes precedence in this range */
+  }
+  .layout2 {
+    width: 1920px;
+    top: -3679px;
+    left: 1467px;
+    background-color: #FFFFFF;
+  }
+}
+
+/* For devices with a minimum width of 1920px */
+@media (min-width: 1920px) {
+  .homepage,
+  .layout2 {
+    display: none; /* Assuming layout 3 takes precedence in this range */
+  }
+  .layout3 {
+    width: 1920px;
+    top: -3679px;
+    left: 3553px;
+    background-color: #FFFFFF;
+  }
+}
+
+
+

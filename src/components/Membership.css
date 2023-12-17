@@ -1,0 +1,93 @@
+.shadow-box {
+    width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    /* Additional styles as needed */
+}
+
+.btn btn-outline-secondary {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    background-color: #000; /* Change button color to black */
+    border: none;
+}
+
+.move-right {
+    margin-left: 20px; /* Adjust the margin-left to move it to the right */
+    margin-top: 20px; /* Adjust the margin-top to move it down */
+}
+
+/* Style for the input box */
+.light-grey-input {
+    background-color: #ccc; /* Set the background color to grey */
+    /* Additional styles as needed */
+    /* You can add more specific styles like border, padding, etc. */
+    border: 1px solid #999; /* Example border style */
+    padding: 8px; /* Example padding */
+    border-radius: 4px; /* Example border radius */
+    /* Other styles */
+}
+
+/* Style for black button */
+.btn-black {
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+
+.rectangle-input {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 3px;
+    max-width: 200px; /* Adjust as needed */
+  }
+  
+  .left-button,
+  .right-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  input {
+    border: none;
+    padding: 5px;
+    flex: 1;
+    text-align: center;
+  }
+  
+  .right-button {
+    margin-left: auto;
+  }
+  
+
+
+
+
+
+
